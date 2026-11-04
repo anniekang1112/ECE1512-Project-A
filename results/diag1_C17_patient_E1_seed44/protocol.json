@@ -1,0 +1,10 @@
+{
+  "protocol": "patient_independent",
+  "sampling_seed": 2026,
+  "group_split": "StratifiedGroupKFold(10,shuffle=True,random_state=42), first fold; no test labels used",
+  "case_counts": [
+    54,
+    6,
+    40
+  ]
+}

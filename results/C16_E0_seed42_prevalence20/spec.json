@@ -1,0 +1,9 @@
+{
+  "id": "C16_E0_seed42_prevalence20",
+  "config": "camelyon16_medical_ssl_config.yml",
+  "variant": "E0",
+  "seed": 42,
+  "epochs": 30,
+  "train_positive_fraction": 0.2,
+  "optional": true
+}

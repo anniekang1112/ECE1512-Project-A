@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.mplconfig/
+.DS_Store
+*.h5
+*.tif
+*.tiff
+*.part
+*.pt
+!results/C16_E0_seed42/best.pt

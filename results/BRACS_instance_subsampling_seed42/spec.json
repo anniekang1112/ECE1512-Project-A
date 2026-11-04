@@ -1,0 +1,10 @@
+{
+  "id": "BRACS_instance_subsampling_seed42",
+  "config": "bracs_medical_ssl_config.yml",
+  "dataset_code": "BRACS",
+  "mode": "instance_robustness",
+  "variant": "E0",
+  "seed": 42,
+  "optional": true,
+  "epochs": 3
+}

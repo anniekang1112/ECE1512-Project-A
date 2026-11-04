@@ -1,0 +1,46 @@
+{
+  "id": "diag1_select_BRACS_E3",
+  "config": "bracs_medical_ssl_config.yml",
+  "variant": "E3",
+  "seed": 42,
+  "epochs": 1,
+  "optional": true,
+  "mode": "fraction_selection",
+  "dataset_code": "BRACS",
+  "candidates": {
+    "0.05": {
+      "42": "diag1_BRACS_E3_top05_seed42",
+      "43": "diag1_BRACS_E3_top05_seed43",
+      "44": "diag1_BRACS_E3_top05_seed44"
+    },
+    "0.1": {
+      "42": "BRACS_E3_seed42",
+      "43": "BRACS_E3_seed43",
+      "44": "BRACS_E3_seed44"
+    },
+    "0.25": {
+      "42": "diag1_BRACS_E3_top25_seed42",
+      "43": "diag1_BRACS_E3_top25_seed43",
+      "44": "diag1_BRACS_E3_top25_seed44"
+    },
+    "0.5": {
+      "42": "diag1_BRACS_E3_top50_seed42",
+      "43": "diag1_BRACS_E3_top50_seed43",
+      "44": "diag1_BRACS_E3_top50_seed44"
+    }
+  },
+  "depends_on": [
+    "diag1_BRACS_E3_top05_seed42",
+    "diag1_BRACS_E3_top05_seed43",
+    "diag1_BRACS_E3_top05_seed44",
+    "BRACS_E3_seed42",
+    "BRACS_E3_seed43",
+    "BRACS_E3_seed44",
+    "diag1_BRACS_E3_top25_seed42",
+    "diag1_BRACS_E3_top25_seed43",
+    "diag1_BRACS_E3_top25_seed44",
+    "diag1_BRACS_E3_top50_seed42",
+    "diag1_BRACS_E3_top50_seed43",
+    "diag1_BRACS_E3_top50_seed44"
+  ]
+}

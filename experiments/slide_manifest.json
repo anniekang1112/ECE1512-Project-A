@@ -1,0 +1,21 @@
+[
+  {
+    "path": "slide/test_067.tif",
+    "size": 2415492970,
+    "sha256": "233c10f02f5414c30f69736e432db4c79698fe61e58aa114a27896393f81c812",
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/slide/test_067.tif"
+  },
+  {
+    "path": "slide/test_068.tif",
+    "size": 2530427892,
+    "sha256": "52257fd5922e59953793a5ac6f1adb036328a248f364130cc423f36930458c02",
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/slide/test_068.tif"
+  },
+  {
+    "path": "slide/test_068.xml",
+    "size": 76525,
+    "sha256": null,
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/slide/test_068.xml",
+    "git_blob_sha1": "f272af6521685c50a6703436f9991f47cd4b2bfc"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "class_weights": [
+    0.5263158082962036,
+    10.0
+  ],
+  "class_counts_training_only": [
+    133,
+    7
+  ],
+  "reduction": "unreduced weighted CE followed by minibatch mean",
+  "validation_loss": "unweighted CE"
+}

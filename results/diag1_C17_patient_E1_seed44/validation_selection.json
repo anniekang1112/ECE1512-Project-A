@@ -1,0 +1,9 @@
+{
+  "best_epoch": 30,
+  "selection_score": 1.4215431213378906,
+  "val_auc": 0.8807022571563721,
+  "val_f1": 0.5408408641815186,
+  "val_loss": 0.8288139736651222,
+  "tie_rule": "earliest epoch",
+  "evaluation_policy": "final_test"
+}

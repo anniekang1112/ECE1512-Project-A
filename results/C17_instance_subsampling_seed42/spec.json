@@ -1,0 +1,10 @@
+{
+  "id": "C17_instance_subsampling_seed42",
+  "config": "camelyon17_medical_ssl_config.yml",
+  "dataset_code": "C17",
+  "mode": "instance_robustness",
+  "variant": "E0",
+  "seed": 42,
+  "optional": true,
+  "epochs": 3
+}

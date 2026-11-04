@@ -1,0 +1,8 @@
+{
+  "id": "BRACS_E3_seed44",
+  "config": "bracs_medical_ssl_config.yml",
+  "variant": "E3",
+  "seed": 44,
+  "epochs": 30,
+  "optional": true
+}

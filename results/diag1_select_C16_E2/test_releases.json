@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 42,
+    "source": "C16_E2_seed42",
+    "test_result": "C16_E2_seed42",
+    "action": "reuse previously reported fixed-10% ablation result"
+  },
+  {
+    "seed": 43,
+    "source": "C16_E2_seed43",
+    "test_result": "C16_E2_seed43",
+    "action": "reuse previously reported fixed-10% ablation result"
+  },
+  {
+    "seed": 44,
+    "source": "C16_E2_seed44",
+    "test_result": "C16_E2_seed44",
+    "action": "reuse previously reported fixed-10% ablation result"
+  }
+]

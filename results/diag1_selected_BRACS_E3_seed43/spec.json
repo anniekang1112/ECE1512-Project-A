@@ -1,0 +1,12 @@
+{
+  "id": "diag1_selected_BRACS_E3_seed43",
+  "config": "bracs_medical_ssl_config.yml",
+  "variant": "E3",
+  "seed": 43,
+  "epochs": 30,
+  "optional": true,
+  "top_fraction": 0.25,
+  "evaluation_policy": "final_test",
+  "evaluation_source": "diag1_BRACS_E3_top25_seed43",
+  "selection_lock": "results/diag1_select_BRACS_E3/selection.json"
+}

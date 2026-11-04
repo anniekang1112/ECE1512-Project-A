@@ -1,0 +1,46 @@
+{
+  "id": "diag1_select_C16_E3",
+  "config": "camelyon16_medical_ssl_config.yml",
+  "variant": "E3",
+  "seed": 42,
+  "epochs": 1,
+  "optional": true,
+  "mode": "fraction_selection",
+  "dataset_code": "C16",
+  "candidates": {
+    "0.05": {
+      "42": "diag1_C16_E3_top05_seed42",
+      "43": "diag1_C16_E3_top05_seed43",
+      "44": "diag1_C16_E3_top05_seed44"
+    },
+    "0.1": {
+      "42": "C16_E3_seed42",
+      "43": "C16_E3_seed43",
+      "44": "C16_E3_seed44"
+    },
+    "0.25": {
+      "42": "diag1_C16_E3_top25_seed42",
+      "43": "diag1_C16_E3_top25_seed43",
+      "44": "diag1_C16_E3_top25_seed44"
+    },
+    "0.5": {
+      "42": "diag1_C16_E3_top50_seed42",
+      "43": "diag1_C16_E3_top50_seed43",
+      "44": "diag1_C16_E3_top50_seed44"
+    }
+  },
+  "depends_on": [
+    "diag1_C16_E3_top05_seed42",
+    "diag1_C16_E3_top05_seed43",
+    "diag1_C16_E3_top05_seed44",
+    "C16_E3_seed42",
+    "C16_E3_seed43",
+    "C16_E3_seed44",
+    "diag1_C16_E3_top25_seed42",
+    "diag1_C16_E3_top25_seed43",
+    "diag1_C16_E3_top25_seed44",
+    "diag1_C16_E3_top50_seed42",
+    "diag1_C16_E3_top50_seed43",
+    "diag1_C16_E3_top50_seed44"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "protocol": "Test-time random instance subsampling; not controlled tumor fraction. Fraction/repeat fixed before evaluation; no selection based on these test results.",
+  "rows": [
+    {
+      "variant": "E0",
+      "fraction": 0.5,
+      "repeat": 0,
+      "accuracy": 0.45348837209302323,
+      "f1_macro": 0.3539435000636502,
+      "auc_macro_ovr": 0.7863704613704614,
+      "prediction_flip_rate": 0.023255813953488372,
+      "mean_probability_l1_change": 0.03109934421538424
+    },
+    {
+      "variant": "E0",
+      "fraction": 0.5,
+      "repeat": 1,
+      "accuracy": 0.4418604651162791,
+      "f1_macro": 0.3307559590168286,
+      "auc_macro_ovr": 0.7835851482280055,
+      "prediction_flip_rate": 0.023255813953488372,
+      "mean_probability_l1_change": 0.03552104510670815
+    },
+    {
+      "variant": "E0",
+      "fraction": 0.5,
+      "repeat": 2,
+      "accuracy": 0.46511627906976744,
+      "f1_macro": 0.37237229001934885,
+      "auc_macro_ovr": 0.789033969033969,
+      "prediction_flip_rate": 0.046511627906976744,
+      "mean_probability_l1_change": 0.04421974518067315
+    },
+    {
+      "variant": "E0",
+      "fraction": 0.1,
+      "repeat": 0,
+      "accuracy": 0.4186046511627907,
+      "f1_macro": 0.30294429424864205,
+      "auc_macro_ovr": 0.7607347537704682,
+      "prediction_flip_rate": 0.08139534883720931,
+      "mean_probability_l1_change": 0.10241663848847925
+    },
+    {
+      "variant": "E0",
+      "fraction": 0.1,
+      "repeat": 1,
+      "accuracy": 0.4418604651162791,
+      "f1_macro": 0.33819464459858545,
+      "auc_macro_ovr": 0.7867281126209696,
+      "prediction_flip_rate": 0.09302325581395349,
+      "mean_probability_l1_change": 0.09331831568403665
+    },
+    {
+      "variant": "E0",
+      "fraction": 0.1,
+      "repeat": 2,
+      "accuracy": 0.4883720930232558,
+      "f1_macro": 0.40813579562423224,
+      "auc_macro_ovr": 0.7900311164596878,
+      "prediction_flip_rate": 0.12790697674418605,
+      "mean_probability_l1_change": 0.13665146858354918
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.5,
+      "repeat": 0,
+      "accuracy": 0.37209302325581395,
+      "f1_macro": 0.30284171968382495,
+      "auc_macro_ovr": 0.7602867129652845,
+      "prediction_flip_rate": 0.023255813953488372,
+      "mean_probability_l1_change": 0.025878715769829076
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.5,
+      "repeat": 1,
+      "accuracy": 0.38372093023255816,
+      "f1_macro": 0.29777854856764474,
+      "auc_macro_ovr": 0.7585279156707729,
+      "prediction_flip_rate": 0.023255813953488372,
+      "mean_probability_l1_change": 0.025087730477490938
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.5,
+      "repeat": 2,
+      "accuracy": 0.38372093023255816,
+      "f1_macro": 0.30001298080207695,
+      "auc_macro_ovr": 0.7602884818956247,
+      "prediction_flip_rate": 0.011627906976744186,
+      "mean_probability_l1_change": 0.03199789069422391
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.1,
+      "repeat": 0,
+      "accuracy": 0.36046511627906974,
+      "f1_macro": 0.27940466323008045,
+      "auc_macro_ovr": 0.7430538841253126,
+      "prediction_flip_rate": 0.05813953488372093,
+      "mean_probability_l1_change": 0.07634881671638563
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.1,
+      "repeat": 1,
+      "accuracy": 0.3953488372093023,
+      "f1_macro": 0.31975657054566664,
+      "auc_macro_ovr": 0.7613562611776897,
+      "prediction_flip_rate": 0.023255813953488372,
+      "mean_probability_l1_change": 0.06771409302796941
+    },
+    {
+      "variant": "E3",
+      "fraction": 0.1,
+      "repeat": 2,
+      "accuracy": 0.4186046511627907,
+      "f1_macro": 0.3487054076055743,
+      "auc_macro_ovr": 0.7732598670098669,
+      "prediction_flip_rate": 0.09302325581395349,
+      "mean_probability_l1_change": 0.08943613235998443
+    }
+  ]
+}

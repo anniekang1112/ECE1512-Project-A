@@ -1,0 +1,10 @@
+{
+  "id": "diag1_C16_E0_seed43_prevalence05_sample2027",
+  "config": "camelyon16_medical_ssl_config.yml",
+  "variant": "E0",
+  "seed": 43,
+  "epochs": 30,
+  "optional": true,
+  "sampling_seed": 2027,
+  "train_positive_fraction": 0.05
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 42,
+    "source": "diag1_C17_E3_top05_seed42",
+    "test_result": "diag1_selected_C17_E3_seed42",
+    "action": "test evaluation only; no optimizer steps"
+  },
+  {
+    "seed": 43,
+    "source": "diag1_C17_E3_top05_seed43",
+    "test_result": "diag1_selected_C17_E3_seed43",
+    "action": "test evaluation only; no optimizer steps"
+  },
+  {
+    "seed": 44,
+    "source": "diag1_C17_E3_top05_seed44",
+    "test_result": "diag1_selected_C17_E3_seed44",
+    "action": "test evaluation only; no optimizer steps"
+  }
+]

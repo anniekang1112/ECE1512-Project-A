@@ -1,0 +1,131 @@
+{
+  "dataset": "BRACS",
+  "variant": "E3",
+  "selected_fraction": 0.25,
+  "selected_mean_score": 1.2589637438456218,
+  "mean_validation_scores": {
+    "0.05": 1.22055451075236,
+    "0.1": 1.2348815401395161,
+    "0.25": 1.2589637438456218,
+    "0.5": 1.2574631571769714
+  },
+  "records": [
+    {
+      "fraction": 0.05,
+      "seed": 42,
+      "run_id": "diag1_BRACS_E3_top05_seed42",
+      "val_auc": 0.8033852577209473,
+      "val_f1": 0.4271608591079712,
+      "selection_score": 1.2305461168289185,
+      "epoch": 29
+    },
+    {
+      "fraction": 0.05,
+      "seed": 43,
+      "run_id": "diag1_BRACS_E3_top05_seed43",
+      "val_auc": 0.8012698292732239,
+      "val_f1": 0.4225669205188751,
+      "selection_score": 1.223836749792099,
+      "epoch": 12
+    },
+    {
+      "fraction": 0.05,
+      "seed": 44,
+      "run_id": "diag1_BRACS_E3_top05_seed44",
+      "val_auc": 0.797633171081543,
+      "val_f1": 0.40964749455451965,
+      "selection_score": 1.2072806656360626,
+      "epoch": 10
+    },
+    {
+      "fraction": 0.1,
+      "seed": 42,
+      "run_id": "BRACS_E3_seed42",
+      "val_auc": 0.8035703897476196,
+      "val_f1": 0.4002199172973633,
+      "selection_score": 1.203790307044983,
+      "epoch": 3
+    },
+    {
+      "fraction": 0.1,
+      "seed": 43,
+      "run_id": "BRACS_E3_seed43",
+      "val_auc": 0.8048861622810364,
+      "val_f1": 0.4401019215583801,
+      "selection_score": 1.2449880838394165,
+      "epoch": 12
+    },
+    {
+      "fraction": 0.1,
+      "seed": 44,
+      "run_id": "BRACS_E3_seed44",
+      "val_auc": 0.8106377720832825,
+      "val_f1": 0.4452284574508667,
+      "selection_score": 1.2558662295341492,
+      "epoch": 10
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "run_id": "diag1_BRACS_E3_top25_seed42",
+      "val_auc": 0.8412020802497864,
+      "val_f1": 0.38852885365486145,
+      "selection_score": 1.2297309339046478,
+      "epoch": 5
+    },
+    {
+      "fraction": 0.25,
+      "seed": 43,
+      "run_id": "diag1_BRACS_E3_top25_seed43",
+      "val_auc": 0.8134690523147583,
+      "val_f1": 0.4564935266971588,
+      "selection_score": 1.2699625790119171,
+      "epoch": 8
+    },
+    {
+      "fraction": 0.25,
+      "seed": 44,
+      "run_id": "diag1_BRACS_E3_top25_seed44",
+      "val_auc": 0.8249606490135193,
+      "val_f1": 0.452237069606781,
+      "selection_score": 1.2771977186203003,
+      "epoch": 6
+    },
+    {
+      "fraction": 0.5,
+      "seed": 42,
+      "run_id": "diag1_BRACS_E3_top50_seed42",
+      "val_auc": 0.83563631772995,
+      "val_f1": 0.4121510684490204,
+      "selection_score": 1.2477873861789703,
+      "epoch": 5
+    },
+    {
+      "fraction": 0.5,
+      "seed": 43,
+      "run_id": "diag1_BRACS_E3_top50_seed43",
+      "val_auc": 0.817428469657898,
+      "val_f1": 0.4442441463470459,
+      "selection_score": 1.2616726160049438,
+      "epoch": 8
+    },
+    {
+      "fraction": 0.5,
+      "seed": 44,
+      "run_id": "diag1_BRACS_E3_top50_seed44",
+      "val_auc": 0.830711305141449,
+      "val_f1": 0.43221816420555115,
+      "selection_score": 1.2629294693470001,
+      "epoch": 6
+    }
+  ],
+  "criterion": "mean across seeds of best-validation macro AUROC + macro F1",
+  "tie_preference": [
+    0.1,
+    0.05,
+    0.25,
+    0.5
+  ],
+  "test_data_used_for_selection": false,
+  "selection_sha256": "d32e51d57ebb03867a878f386df854dcc1bed547f38ea6fb6d489cb9eb99a526"
+}

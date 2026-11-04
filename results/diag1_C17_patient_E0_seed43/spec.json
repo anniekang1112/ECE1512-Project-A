@@ -1,0 +1,9 @@
+{
+  "id": "diag1_C17_patient_E0_seed43",
+  "config": "camelyon17_medical_ssl_config.yml",
+  "variant": "E0",
+  "seed": 43,
+  "epochs": 30,
+  "optional": true,
+  "protocol": "patient_independent"
+}

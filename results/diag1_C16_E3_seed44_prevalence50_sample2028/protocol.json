@@ -1,0 +1,11 @@
+{
+  "protocol": "course",
+  "sampling_seed": 2028,
+  "prevalence": {
+    "total": 140,
+    "unique_positive": 70,
+    "unique_negative": 70,
+    "sampling_seed": 2028,
+    "replacement": false
+  }
+}

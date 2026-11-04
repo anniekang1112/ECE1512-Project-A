@@ -1,0 +1,20 @@
+[
+  {
+    "path": "feature/BRACS/patch_feats_pretrain_medical_ssl.h5",
+    "size": 4235044448,
+    "sha256": "72a787e628f30a8d440fb698bd2de05edfe82e082c2bb6865c5aea4dd8e8e5bc",
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/feature/BRACS/patch_feats_pretrain_medical_ssl.h5"
+  },
+  {
+    "path": "feature/C16/patch_feats_pretrain_medical_ssl.h5",
+    "size": 7222943888,
+    "sha256": "f22c22c4dc7c5314a2b4b16b8322f8c9cab8e8330d0942a5ab0cbf4f7b27fd6f",
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/feature/C16/patch_feats_pretrain_medical_ssl.h5"
+  },
+  {
+    "path": "feature/C17/patch_feats_pretrain_medical_ssl.h5",
+    "size": 4076878344,
+    "sha256": "6c9dd83f6af398773a45da57e4f1f69d6269ecfa74821d8d4f72799f92b86e42",
+    "url": "https://huggingface.co/datasets/LeonYe/ECE1512-WSI-Feature/resolve/main/feature/C17/patch_feats_pretrain_medical_ssl.h5"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "C16_E1_seed42",
+  "config": "camelyon16_medical_ssl_config.yml",
+  "variant": "E1",
+  "seed": 42,
+  "epochs": 30,
+  "optional": true
+}

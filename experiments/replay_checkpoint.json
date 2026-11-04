@@ -1,0 +1,8 @@
+{
+  "path": "results/C16_E0_seed42/best.pt",
+  "bytes": 664069,
+  "sha256": "a3c7814f808719e90f34bebbf4b66b1855d00aa636aaae0654fd35416cec6a00",
+  "run": "C16_E0_seed42",
+  "selection": "earliest maximum validation macro-AUROC + macro-F1, epoch 3",
+  "scope": "original baseline weights, copied unchanged for inference-only replay"
+}

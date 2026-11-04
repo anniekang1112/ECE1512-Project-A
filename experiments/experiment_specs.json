@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "C16_E0_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "C17_E0_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "BRACS_E0_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "C16_E3_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "C17_E3_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "BRACS_E3_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": false
+  },
+  {
+    "id": "BRACS_E1_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E2_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E0_seed42_prevalence50",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.5,
+    "optional": true
+  },
+  {
+    "id": "C16_E3_seed42_prevalence50",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.5,
+    "optional": true
+  },
+  {
+    "id": "C16_E0_seed42_prevalence20",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.2,
+    "optional": true
+  },
+  {
+    "id": "C16_E3_seed42_prevalence20",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.2,
+    "optional": true
+  },
+  {
+    "id": "C16_E0_seed42_prevalence05",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.05,
+    "optional": true
+  },
+  {
+    "id": "C16_E3_seed42_prevalence05",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "train_positive_fraction": 0.05,
+    "optional": true
+  },
+  {
+    "id": "C16_instance_subsampling_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "dataset_code": "C16",
+    "mode": "instance_robustness",
+    "variant": "E0",
+    "seed": 42,
+    "optional": true,
+    "epochs": 3
+  },
+  {
+    "id": "C17_instance_subsampling_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "dataset_code": "C17",
+    "mode": "instance_robustness",
+    "variant": "E0",
+    "seed": 42,
+    "optional": true,
+    "epochs": 3
+  },
+  {
+    "id": "BRACS_instance_subsampling_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "dataset_code": "BRACS",
+    "mode": "instance_robustness",
+    "variant": "E0",
+    "seed": 42,
+    "optional": true,
+    "epochs": 3
+  },
+  {
+    "id": "C16_E0_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E0_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E0_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E3_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E3_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E3_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E0_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E0_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E0_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E3_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E3_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E3_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E1_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E2_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E1_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E2_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E1_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C16_E2_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E1_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E2_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E1_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E2_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E1_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "C17_E2_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E1_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E2_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E1_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "BRACS_E2_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true
+  },
+  {
+    "id": "diag1_C16_E2_top05_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top05_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top05_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top25_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top25_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top25_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top50_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top50_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E2_top50_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top05_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top05_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top05_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top25_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top25_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top25_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top50_seed42",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top50_seed43",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C16_E3_top50_seed44",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top05_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top05_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top05_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top25_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top25_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top25_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top50_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top50_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E2_top50_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top05_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top05_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top05_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top25_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top25_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top25_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top50_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top50_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_C17_E3_top50_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top05_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top05_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top05_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top25_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top25_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top25_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top50_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top50_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E2_top50_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top05_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top05_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top05_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top25_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top25_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top25_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.25,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top50_seed42",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top50_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_BRACS_E3_top50_seed44",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.5,
+    "evaluation_policy": "validation_only"
+  },
+  {
+    "id": "diag1_select_C16_E2",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "C16",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_C16_E2_top05_seed42",
+        "43": "diag1_C16_E2_top05_seed43",
+        "44": "diag1_C16_E2_top05_seed44"
+      },
+      "0.1": {
+        "42": "C16_E2_seed42",
+        "43": "C16_E2_seed43",
+        "44": "C16_E2_seed44"
+      },
+      "0.25": {
+        "42": "diag1_C16_E2_top25_seed42",
+        "43": "diag1_C16_E2_top25_seed43",
+        "44": "diag1_C16_E2_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_C16_E2_top50_seed42",
+        "43": "diag1_C16_E2_top50_seed43",
+        "44": "diag1_C16_E2_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_C16_E2_top05_seed42",
+      "diag1_C16_E2_top05_seed43",
+      "diag1_C16_E2_top05_seed44",
+      "C16_E2_seed42",
+      "C16_E2_seed43",
+      "C16_E2_seed44",
+      "diag1_C16_E2_top25_seed42",
+      "diag1_C16_E2_top25_seed43",
+      "diag1_C16_E2_top25_seed44",
+      "diag1_C16_E2_top50_seed42",
+      "diag1_C16_E2_top50_seed43",
+      "diag1_C16_E2_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_select_C16_E3",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "C16",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_C16_E3_top05_seed42",
+        "43": "diag1_C16_E3_top05_seed43",
+        "44": "diag1_C16_E3_top05_seed44"
+      },
+      "0.1": {
+        "42": "C16_E3_seed42",
+        "43": "C16_E3_seed43",
+        "44": "C16_E3_seed44"
+      },
+      "0.25": {
+        "42": "diag1_C16_E3_top25_seed42",
+        "43": "diag1_C16_E3_top25_seed43",
+        "44": "diag1_C16_E3_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_C16_E3_top50_seed42",
+        "43": "diag1_C16_E3_top50_seed43",
+        "44": "diag1_C16_E3_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_C16_E3_top05_seed42",
+      "diag1_C16_E3_top05_seed43",
+      "diag1_C16_E3_top05_seed44",
+      "C16_E3_seed42",
+      "C16_E3_seed43",
+      "C16_E3_seed44",
+      "diag1_C16_E3_top25_seed42",
+      "diag1_C16_E3_top25_seed43",
+      "diag1_C16_E3_top25_seed44",
+      "diag1_C16_E3_top50_seed42",
+      "diag1_C16_E3_top50_seed43",
+      "diag1_C16_E3_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_select_C17_E2",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "C17",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_C17_E2_top05_seed42",
+        "43": "diag1_C17_E2_top05_seed43",
+        "44": "diag1_C17_E2_top05_seed44"
+      },
+      "0.1": {
+        "42": "C17_E2_seed42",
+        "43": "C17_E2_seed43",
+        "44": "C17_E2_seed44"
+      },
+      "0.25": {
+        "42": "diag1_C17_E2_top25_seed42",
+        "43": "diag1_C17_E2_top25_seed43",
+        "44": "diag1_C17_E2_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_C17_E2_top50_seed42",
+        "43": "diag1_C17_E2_top50_seed43",
+        "44": "diag1_C17_E2_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_C17_E2_top05_seed42",
+      "diag1_C17_E2_top05_seed43",
+      "diag1_C17_E2_top05_seed44",
+      "C17_E2_seed42",
+      "C17_E2_seed43",
+      "C17_E2_seed44",
+      "diag1_C17_E2_top25_seed42",
+      "diag1_C17_E2_top25_seed43",
+      "diag1_C17_E2_top25_seed44",
+      "diag1_C17_E2_top50_seed42",
+      "diag1_C17_E2_top50_seed43",
+      "diag1_C17_E2_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_select_C17_E3",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "C17",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_C17_E3_top05_seed42",
+        "43": "diag1_C17_E3_top05_seed43",
+        "44": "diag1_C17_E3_top05_seed44"
+      },
+      "0.1": {
+        "42": "C17_E3_seed42",
+        "43": "C17_E3_seed43",
+        "44": "C17_E3_seed44"
+      },
+      "0.25": {
+        "42": "diag1_C17_E3_top25_seed42",
+        "43": "diag1_C17_E3_top25_seed43",
+        "44": "diag1_C17_E3_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_C17_E3_top50_seed42",
+        "43": "diag1_C17_E3_top50_seed43",
+        "44": "diag1_C17_E3_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_C17_E3_top05_seed42",
+      "diag1_C17_E3_top05_seed43",
+      "diag1_C17_E3_top05_seed44",
+      "C17_E3_seed42",
+      "C17_E3_seed43",
+      "C17_E3_seed44",
+      "diag1_C17_E3_top25_seed42",
+      "diag1_C17_E3_top25_seed43",
+      "diag1_C17_E3_top25_seed44",
+      "diag1_C17_E3_top50_seed42",
+      "diag1_C17_E3_top50_seed43",
+      "diag1_C17_E3_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_select_BRACS_E2",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "BRACS",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_BRACS_E2_top05_seed42",
+        "43": "diag1_BRACS_E2_top05_seed43",
+        "44": "diag1_BRACS_E2_top05_seed44"
+      },
+      "0.1": {
+        "42": "BRACS_E2_seed42",
+        "43": "BRACS_E2_seed43",
+        "44": "BRACS_E2_seed44"
+      },
+      "0.25": {
+        "42": "diag1_BRACS_E2_top25_seed42",
+        "43": "diag1_BRACS_E2_top25_seed43",
+        "44": "diag1_BRACS_E2_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_BRACS_E2_top50_seed42",
+        "43": "diag1_BRACS_E2_top50_seed43",
+        "44": "diag1_BRACS_E2_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_BRACS_E2_top05_seed42",
+      "diag1_BRACS_E2_top05_seed43",
+      "diag1_BRACS_E2_top05_seed44",
+      "BRACS_E2_seed42",
+      "BRACS_E2_seed43",
+      "BRACS_E2_seed44",
+      "diag1_BRACS_E2_top25_seed42",
+      "diag1_BRACS_E2_top25_seed43",
+      "diag1_BRACS_E2_top25_seed44",
+      "diag1_BRACS_E2_top50_seed42",
+      "diag1_BRACS_E2_top50_seed43",
+      "diag1_BRACS_E2_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_select_BRACS_E3",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 1,
+    "optional": true,
+    "mode": "fraction_selection",
+    "dataset_code": "BRACS",
+    "candidates": {
+      "0.05": {
+        "42": "diag1_BRACS_E3_top05_seed42",
+        "43": "diag1_BRACS_E3_top05_seed43",
+        "44": "diag1_BRACS_E3_top05_seed44"
+      },
+      "0.1": {
+        "42": "BRACS_E3_seed42",
+        "43": "BRACS_E3_seed43",
+        "44": "BRACS_E3_seed44"
+      },
+      "0.25": {
+        "42": "diag1_BRACS_E3_top25_seed42",
+        "43": "diag1_BRACS_E3_top25_seed43",
+        "44": "diag1_BRACS_E3_top25_seed44"
+      },
+      "0.5": {
+        "42": "diag1_BRACS_E3_top50_seed42",
+        "43": "diag1_BRACS_E3_top50_seed43",
+        "44": "diag1_BRACS_E3_top50_seed44"
+      }
+    },
+    "depends_on": [
+      "diag1_BRACS_E3_top05_seed42",
+      "diag1_BRACS_E3_top05_seed43",
+      "diag1_BRACS_E3_top05_seed44",
+      "BRACS_E3_seed42",
+      "BRACS_E3_seed43",
+      "BRACS_E3_seed44",
+      "diag1_BRACS_E3_top25_seed42",
+      "diag1_BRACS_E3_top25_seed43",
+      "diag1_BRACS_E3_top25_seed44",
+      "diag1_BRACS_E3_top50_seed42",
+      "diag1_BRACS_E3_top50_seed43",
+      "diag1_BRACS_E3_top50_seed44"
+    ]
+  },
+  {
+    "id": "diag1_C16_E0_seed43_prevalence50_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.5
+  },
+  {
+    "id": "diag1_C16_E3_seed43_prevalence50_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.5
+  },
+  {
+    "id": "diag1_C16_E0_seed43_prevalence20_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.2
+  },
+  {
+    "id": "diag1_C16_E3_seed43_prevalence20_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.2
+  },
+  {
+    "id": "diag1_C16_E0_seed43_prevalence05_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.05
+  },
+  {
+    "id": "diag1_C16_E3_seed43_prevalence05_sample2027",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2027,
+    "train_positive_fraction": 0.05
+  },
+  {
+    "id": "diag1_C16_E0_seed44_prevalence50_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.5
+  },
+  {
+    "id": "diag1_C16_E3_seed44_prevalence50_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.5
+  },
+  {
+    "id": "diag1_C16_E0_seed44_prevalence20_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.2
+  },
+  {
+    "id": "diag1_C16_E3_seed44_prevalence20_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.2
+  },
+  {
+    "id": "diag1_C16_E0_seed44_prevalence05_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.05
+  },
+  {
+    "id": "diag1_C16_E3_seed44_prevalence05_sample2028",
+    "config": "camelyon16_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "sampling_seed": 2028,
+    "train_positive_fraction": 0.05
+  },
+  {
+    "id": "diag1_C17_patient_E0_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E1_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E2_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E3_seed42",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 42,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E0_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E1_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E2_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E3_seed43",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E0_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E0",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E1_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E1",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E2_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E2",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  },
+  {
+    "id": "diag1_C17_patient_E3_seed44",
+    "config": "camelyon17_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 44,
+    "epochs": 30,
+    "optional": true,
+    "protocol": "patient_independent"
+  }
+]

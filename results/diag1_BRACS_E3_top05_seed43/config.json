@@ -1,0 +1,32 @@
+{
+  "dataset": "BRACS",
+  "data_dir": "./Project_A_Starter_Code/feature/BRACS/patch_feats_pretrain_medical_ssl.h5",
+  "dataset_csv_dir": "./Project_A_Starter_Code/dataset_csv",
+  "D_feat": 384,
+  "D_inner": 256,
+  "D_attn": 128,
+  "n_res": 0,
+  "n_class": 7,
+  "B": 1,
+  "n_worker": 0,
+  "pin_memory": true,
+  "n_shot": 0,
+  "seed": 42,
+  "lr": 0.0001,
+  "wd": 1e-05,
+  "train_epoch": 30,
+  "warmup_epoch": 3,
+  "droprate": 0.0,
+  "top_fraction": 0.05,
+  "experiment": {
+    "id": "diag1_BRACS_E3_top05_seed43",
+    "config": "bracs_medical_ssl_config.yml",
+    "variant": "E3",
+    "seed": 43,
+    "epochs": 30,
+    "optional": true,
+    "top_fraction": 0.05,
+    "evaluation_policy": "validation_only"
+  },
+  "device": "mps"
+}

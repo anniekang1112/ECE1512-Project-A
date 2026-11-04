@@ -1,0 +1,10 @@
+{
+  "id": "diag1_C17_E3_top05_seed43",
+  "config": "camelyon17_medical_ssl_config.yml",
+  "variant": "E3",
+  "seed": 43,
+  "epochs": 30,
+  "optional": true,
+  "top_fraction": 0.05,
+  "evaluation_policy": "validation_only"
+}

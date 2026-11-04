@@ -1,0 +1,10 @@
+{
+  "id": "diag1_BRACS_E2_top50_seed43",
+  "config": "bracs_medical_ssl_config.yml",
+  "variant": "E2",
+  "seed": 43,
+  "epochs": 30,
+  "optional": true,
+  "top_fraction": 0.5,
+  "evaluation_policy": "validation_only"
+}
